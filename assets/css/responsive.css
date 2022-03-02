@@ -54,6 +54,15 @@
     position: relative;
     margin-bottom: 10px;
   }
+  .normal-title {
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  .normal-content {
+    font-size: 8px;
+  }
+
   .about-item {
     margin-bottom: 30px;
   }
@@ -158,6 +167,14 @@
   .section-title {
     font-size: 22px;
   }
+  .normal-title {
+    font-size: 22px;
+  }
+
+  .normal-content {
+    font-size: 16px;
+  }
+
   .section-sub {
     font-size: 16px;
   }

@@ -57,6 +57,11 @@ ul li, ol li {
   list-style: none;
 }
 
+ul li.register {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
 .hero-heading {
   font-size: 40px;
   font-weight: 700;
@@ -133,6 +138,31 @@ ul li, ol li {
 
 .section-title:after {
   margin-left: -30px;
+}
+
+.normal-title {
+  font-size: 36px;
+  color: #212121;
+  line-height: 52px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.normal-content {
+  font-size: 24px;
+  color: #212121;
+  line-height: 32px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  text-align: left;
+  position: relative;
 }
 
 .section-subcontent {
