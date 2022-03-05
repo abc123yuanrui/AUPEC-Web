@@ -249,7 +249,7 @@ ul li.register {
 }
 
 .btn-common {
-  background-color: var(--themered);
+  background-color: var(--themecyan);
   position: relative;
   z-index: 1;
 }
