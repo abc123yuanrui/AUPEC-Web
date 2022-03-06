@@ -1288,7 +1288,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   left: 0px;
   right: 0px;
   bottom: 0px;
-  padding-top: 35%;
+  /* original padding 35% */
+  padding-top: 23%;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
