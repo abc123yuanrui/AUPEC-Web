@@ -91,19 +91,8 @@ ul li.register {
 	}
 }
 
-.wobble-vertical {
-	display: inline-block;
-	&:hover {
-		animation-name: wobble-vertical;
-		animation-duration: 1s;
-		animation-timing-function: ease-in-out;
-		animation-iteration-count: 1;
-	}
-}
-
-
 .hiddenEffect{
-  position: relative;
+  display: inline-block;
 }
 
 .hiddenEffect:hover {
@@ -1499,6 +1488,36 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #888;
 }
 
+.team-item .info-text-committee {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  padding: 7px 10px;
+  background: #f3f4f3;
+  text-align: left;
+}
+
+.team-item .info-text-committee h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.team-item .info-text-committee h3 a {
+  color: #212121;
+}
+
+.team-item .info-text-committee h3 a:hover {
+  color: var(--themecyan);
+}
+
+.team-item .info-text-committee p {
+  margin: 0;
+  font-size: 8 px;
+  color: #888;
+  line-height: normal;
+}
 .team-item:hover .team-overlay {
   opacity: 1;
 }
