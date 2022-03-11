@@ -174,6 +174,7 @@ ul li.register {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  object-fit: cover；
 }
 
 .test-box .item {
@@ -194,12 +195,12 @@ ul li.register {
 }
 
 .test-box .item-1 span {
-  background-image: url(https://cdn.pixabay.com/photo/2017/12/27/14/02/friends-3042751_960_720.jpg);
+  background-image: url(https://live.staticflickr.com/65535/51669375705_da1aa077e3_h_d.jpg);
   transform-origin: top;
 }
 
 .test-box .item-2 span {
-  background-image: url(https://cdn.pixabay.com/photo/2016/03/27/22/22/fox-1284512_960_720.jpg);
+  background-image: url(	https://live.staticflickr.com/65535/51669365745_580b888d2c_k_d.jpg);
   transform-origin: bottom;
   transform: rotateX(90deg) translateY(50%);
 }
@@ -231,6 +232,77 @@ ul li.register {
   background-position-x: -450px;
   transition-delay: 0.4s;
 }
+/* test avator span*/
+.avator-span {
+  width: 225px;
+  height: 250px;
+  position: absolute;
+  max-width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  vertical-align: middle;
+  border-style: none;
+  object-fit: cover；
+}
+
+.avator-span .item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+}
+
+.avator-span .item span {
+  width: 25%;
+  height: 100%;
+  transition: transform 1s ease;
+  background-size: 225px 250px;
+  background-repeat: no-repeat;
+}
+
+.avator-span .item-1 span {
+  background-image: url(https://cdn.pixabay.com/photo/2017/12/27/14/02/friends-3042751_960_720.jpg);
+  transform-origin: top;
+}
+
+.avator-span .item-2 span {
+  background-image: url(https://cdn.pixabay.com/photo/2016/03/27/22/22/fox-1284512_960_720.jpg);
+  transform-origin: bottom;
+  transform: rotateX(90deg) translateY(50%);
+}
+
+.avator-span:hover .item-1 span {
+  transform: rotateX(90deg) translateY(-50%);
+}
+
+.avator-span:hover .item-2 span {
+  transform: rotateX(0) translateY(0);
+}
+
+.avator-span .item span:nth-child(1) {
+  background-position-x: 0;
+  transition-delay: 0.1s;
+}
+
+.avator-span .item span:nth-child(2) {
+  background-position-x: -83px;
+  transition-delay: 0.2s;
+}
+
+.avator-span .item span:nth-child(3) {
+  background-position-x: -166px;
+  transition-delay: 0.3s;
+}
+
+.avator-span .item span:nth-child(4) {
+  background-position-x: -225px;
+  transition-delay: 0.4s;
+}
+
+/* test avator span end*/
 
 .section-title:after {
   position: absolute;
