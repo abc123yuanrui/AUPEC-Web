@@ -165,8 +165,23 @@
               pathways towards 100% renewable power.</p>
               <p class="normal-content"><b>The scope of the conference includes but not limited to following topics:</b></p>
               <ul class="normal-content fadeInLeft animated">
-                <li class="register">Cyber security and data analysis in smart grids</li>
-                <li class="register"class="register">Energy storage technologies and systems</li>
+                <li class="register">Renewable Energy Resources</li>
+                <ul class="rolldown-list">
+                  <li class="register">Solar energy</li>
+                  <li class="register">Wind energy</li>
+                  <li class="register">Hydro/tidal/wave energy</li>
+                  <li class="register">Geothermal energy</li>
+                  <li class="register">Integration of renewable resources to grid</li>
+                  <li class="register">Energy storage technologies & systems</li>
+                </ul>
+                <li class="register"class="register">Battery/EV chargers</li>
+                <ul class="rolldown-list">
+                  <li class="register">DC-powered dwellings</li>
+                  <li class="register">Wide bandgap devices and applications</li>
+                  <li class="register">Energy conversion systems and applications</li>
+                  <li class="register">Geothermal energy</li>
+                  <li class="register">Component, converter and subsystem technologies</li>
+                </ul>
                 <li class="register"class="register">DC-Powered dwellings</li>
                 <li class="register"class="register">Microgrids (DC, AC, and Hybrid)</li>
                 <li class="register"class="register">e-Mobility and charging systems</li>
@@ -200,6 +215,73 @@
       </div>
     </div>
     </section>
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script>
+      $('.rolldown-list li').each(function () {
+        var delay = ($(this).index() / 2) + 's';
+        $(this).css({
+          webkitAnimationDelay: delay,
+          mozAnimationDelay: delay,
+          animationDelay: delay
+        });
+      });
+    </script>
   </body>
+
 </html>
+
+<!-- Renewable Energy Resources
+
+Solar energy
+Wind energy
+Hydro/tidal/wave energy
+Geothermal energy
+Integration of renewable resources to grid
+Distributed energy resources
+Energy storage technologies & systems
+Power Electronics:
+
+Battery/EV chargers
+DC-powered dwellings
+Wide bandgap devices and applications
+Energy conversion systems and applications
+Component, converter and subsystem technologies
+Microgrids:
+
+DC, AC, and Hybrid microgrids
+Islanded and remote grids
+Regulations and standardisation for Microgrids
+Power and energy management and control of Microgrids
+E-mobility & Electrification:
+
+Hydrogen and Fuel Cells
+Mine electrification
+Hybrid electric vehicles
+Naval and aircraft power systems
+Smart charging planning
+AI and Machine Learning for Grid Integration
+Smart Grids:
+
+Cyber security and data analysis in smart grids
+Intelligent control of power systems
+IoT and IoE in power systems
+Energy management and energy efficiency
+Grid integration of electric vehicles
+Application of AI and machine learning
+Transmission & Distribution Systems:
+
+T&D planning and operation
+Load and frequency control
+Electricity market and economics
+Reactive power and voltage control
+Computer-aided analysis of power systems
+Power system stability and control
+Electric Machines & Drives:
+
+Industry and automotive applications
+Permanent magnet generators and motor drive systems,
+Fault-tolerant and bearingless operation and maintainability,
+Diagnostics and prognostics of electric machines and systems,
+Intelligent control of electric motor drives and systems
+Novel designs and applications
+Power Engineering Education -->
