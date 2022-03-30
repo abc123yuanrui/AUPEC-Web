@@ -1076,6 +1076,23 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: var(--themecyan);
 }
 
+.table-registration {
+  background-color: #FFFFFF;
+  width: 100%;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.table-registration tr:nth-child(even){background-color: #f2f2f2;}
+.table-registration tr:hover {background-color: #ddd;}
+.table-registration th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+}
+
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   #nav-main li a.nav-link {
