@@ -1146,7 +1146,9 @@ a.back-to-top:hover, a.back-to-top:focus {
   h5 {
     font-size: 18px;
   }
-  
+  .table {
+    font-size: 12px;
+  }
 }
 
 .about-item {
