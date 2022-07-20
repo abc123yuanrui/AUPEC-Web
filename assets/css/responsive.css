@@ -1,7 +1,7 @@
 /* only small desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
   #main-slide .carousel-caption {
-    top: 32%;
+    top: 26%;
   }
   .carousel-indicators {
     font-size: 14px;
@@ -36,7 +36,7 @@
 /* tablets */
 @media (max-width: 991px) {
   #main-slide .carousel-caption {
-    top: 32%;
+    top: 20%;
   }
   #main-slide .carousel-item .carousel-caption .heading {
     font-size: 20px;
@@ -107,7 +107,7 @@
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   #main-slide .carousel-caption {
-    top: 32%;
+    top: 20%;
   }
   #main-slide .carousel-item .carousel-caption .heading {
     font-size: 20px;
@@ -179,7 +179,7 @@
     font-size: 16px;
   }
   #main-slide .carousel-caption {
-    top: 22%;
+    top: 10%;
   }
   #main-slide .carousel-item .carousel-caption .heading {
     font-size: 14px;
