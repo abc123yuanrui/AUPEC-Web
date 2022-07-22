@@ -261,6 +261,9 @@ ul li.register {
   display: flex;
 }
 
+/* .container {
+  margin-left: 15%;
+} */
 .avator-span .item span {
   width: 25%;
   height: 100%;
@@ -1572,6 +1575,16 @@ a.back-to-top:hover, a.back-to-top:focus {
 .services-item:hover .icon i {
   background: transparent;
   color: var(--themecyan);
+}
+
+#venue {
+  background: #fff;
+  position: relative;
+}
+
+#travel {
+  background: #fff;
+  position: relative;
 }
 
 /* Gallery Section */
