@@ -1577,11 +1577,20 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: var(--themecyan);
 }
 
+#papers {
+  background: #f3f4f3;
+  position: relative;
+}
+
+
 #venue {
   background: #fff;
   position: relative;
 }
 
+#contact-map{
+  background: #fff;
+}
 #awards{
   background: #f3f4f3;
   position: relative;
